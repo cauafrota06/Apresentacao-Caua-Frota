@@ -1,12 +1,10 @@
 const text = [
-  "Pesquisador em Tecnologia",
-  "Desenvolvedor de Sistemas",
-  "Entusiasta de Inovação"
+  "Pesquisador em Tecnologia"
 ];
 
 let index = 0;
 let charIndex = 0;
-const typingElement = document.getElementById("typing");
+
 
 function typeEffect() {
   if (charIndex < text[index].length) {
